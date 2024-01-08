@@ -1,0 +1,53 @@
+
+.pro-container-2 {
+animation: transitioneffect 8s;
+}
+.pro-container {
+animation: transitioneffect 8s;
+}
+
+@keyframes transitioneffect {
+  from {
+opacity: 0;
+    transform: rotate(40deg); 
+  }
+
+20%{
+  transition: 5s;
+}
+  to {
+    opacity: 1;
+    transform: rotate(0); 
+  }
+}
+
+
+.About{
+  animation: datanav 5s;
+}
+@keyframes datanav {
+
+  from {
+    opacity: 0;
+    transform: rotateY(-90deg);
+  }
+
+  to{
+
+    opacity: 1;
+    transform: rotateY(0);
+  }
+}
+.contact-info{
+  animation: infodata 5s;
+}
+@keyframes infodata{
+  from {
+opacity: 0;
+transform: rotateZ(40deg);
+  }
+  to {
+opacity: 1;
+transform: rotateZ(0);
+  }
+}
